@@ -1,0 +1,2 @@
+class PredictionAppError(Exception):
+    pass

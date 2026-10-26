@@ -1,0 +1,23 @@
+1. Import NumPy: We use import numpy as np to access NumPy functions for generating and handling numerical data.
+
+2. Set a random seed: We use np.random.seed(42) so the same random values are generated whenever we run the code again.
+
+3. Define the number of students: We set n = 200 because we want to create a dataset containing 200 students.
+
+4. Generate StudyHours: We use np.random.randint(1, 11, n) to generate random study hours between 1 and 10 for each student.
+
+5. Generate Attendance: We use np.random.randint(60, 101, n) to generate attendance percentages between 60% and 100%.
+
+6. Generate Assignments: We use np.random.randint(0, 11, n) to generate assignment counts between 0 and 10.
+
+7. Calculate Marks: We use a mathematical formula based on study hours, attendance, assignments, and random noise to generate marks. This makes the marks somewhat dependent on the other features.
+
+8. Limit the marks: We use np.clip() to keep marks between 0 and 100, then round them to whole numbers.
+
+9. Combine the data: We use np.column_stack() to combine the four separate arrays into one NumPy array containing 200 rows and 4 columns.
+
+10. Save the dataset: We use np.savetxt() to save the data in a CSV file, which can be opened in Excel or loaded into Pandas.
+
+11. Check the dataset: We use dataset.shape and dataset[:5] to check the dimensions and display the first five rows.
+
+In short: We used NumPy to generate 200 students' records, combined the data into a structured array, and saved it as a CSV file for further data analysis and machine learning practice.
