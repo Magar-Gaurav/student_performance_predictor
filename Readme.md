@@ -5,6 +5,9 @@ A small ML project that predicts a student's marks from 0 to 100 from three thin
 - attendance
 - assignments completed
 
+![App screenshot](image.png)
+
+
 ## What each file do?
 
 - create_data.py : Makes 200 fake students and saves them to data/student_dataset.csv
