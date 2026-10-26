@@ -5,8 +5,17 @@ A small ML project that predicts a student's marks from 0 to 100 from three thin
 - attendance
 - assignments completed
 
+## Application Preview
+
 ![App screenshot](image.png)
 
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Streamlit
+- Joblib
 
 ## What each file do?
 
@@ -23,3 +32,12 @@ python create_data.py
 python train_model.py
 streamlit run app.py
 ```
+
+## Future Improvements
+
+- Use real student performance datasets
+- Add more features such as:
+  - Sleep hours
+  - Exam preparation time
+  - Previous exam scores
+- Deploy online using Streamlit Cloud
